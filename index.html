@@ -1,0 +1,74 @@
+
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+	<script>
+		function mytag() {
+			var clicktag = "https://wirexapp.com/";
+			window.open(clicktag,"_blank")
+		}
+	</script>
+	<title>Wirex banners</title>
+	<style type="text/css">
+		body , html {width:100%;margin:0;padding:0;}
+
+		.wrapper{
+			display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:30px;
+            text-align: center;
+		}
+		button {
+			margin-top: 30px;
+            cursor: pointer;
+            padding: 10px 15px;
+		}
+	</style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <button onclick="location.href='./wirex.zip'" type="button">
+            Download</button>
+       <div>
+        <iframe
+        id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="300"
+        height="250"
+        src="./300x250/index.html"
+        >
+        </iframe>
+       <div>300x250</div>
+      </div>
+        <div>
+        <iframe
+        id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="728"
+        height="90"
+        src="./728x90/index.html"
+        >
+        </iframe>
+        <div>178x90</div>
+        </div> 
+        <div>       
+            <iframe
+            id="inlineFrameExample"
+            title="Inline Frame Example"
+            width="150"
+            height="150"
+            src="./150x150/index.html"
+            >
+            </iframe>
+            <div>150x150</div>
+        </div>        
+    </div>
+</body>
+</html>
+
+
