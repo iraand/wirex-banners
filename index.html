@@ -22,7 +22,10 @@
 		}
 		iframe {
 			display: block;
+			position: absolute;
 		}
+		.container {
+			position:relative;
 	</style>
 </head>
 
@@ -30,7 +33,7 @@
     <div class="wrapper">
         <button onclick="location.href='./wirex.zip'" type="button">
             Download</button>
-       <div class="container">
+       <div class="container"  style="width: 250px; height: 250px;">
         <iframe
         id="wirex"
         title="Wirex"
@@ -52,7 +55,7 @@
             </iframe>
             <div>728x90</div>
         </div> 
-        <div class="container">       
+        <div class="container" style="width: 150px; height: 150px;">       
             <iframe
             id="wirex3"
             title="Wirex"
